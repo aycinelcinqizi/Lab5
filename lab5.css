@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.lent{
+    width: 100%;
+    height: 750px;    
+    background-color: white;
+    display: flex;
+}
+
+.items{
+    width: 26%;
+    height: 750px;
+    text-align: center;
+    background-color: rgb(228, 225, 225);
+    overflow: scroll;
+    overflow-x: hidden;
+    position: fixed;
+}
+.items h1{
+    padding-top: 80px;
+    font-size: 25px;
+    color: rgb(7, 7, 50);
+}
+.items i{
+    margin-left: 2px;
+    font-size: 9px;
+    color: rgb(7, 7, 50);
+}
+.items .ul{
+    margin-top: 90px;
+    width: 100%;
+}
+.items ul li{
+    color: rgb(61, 60, 60);
+    font-size: 16px;
+    margin-top: 28px;
+}
+.items .li1{
+    border-bottom: 2px solid rgb(7, 7, 50);
+    width: 15%;
+    margin-left:44%;
+    list-style: none;
+    color: rgb(7, 7, 50);
+}
+.p1{
+    margin-top: 60px;
+    color: rgb(61, 60, 60);
+}
+.p2{
+    margin-top: 10px;
+    color: orangered;
+}
+.item{
+    margin-left: 300px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.item div{
+    height: 100px;
+}
+.item div img{
+    width: 17%;
+    margin-top: 130px;
+    height: 150px;
+    border-radius: 100%;
+}
+.icon{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+.icon i{
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+    margin-top: 25px;
+}
+.about{
+    margin: auto;
+    width: 80%;
+    height: 600px;
+}
+.about h3{
+    font-size: 19px;
+    margin-top: 15px;
+    color: rgb(181, 179, 179);
+}
+.about h1{
+    font-size: 27px;
+    margin-top: 15px;
+    color: rgb(7, 7, 50);
+}
+.about p{
+    font-size: 16px;
+    line-height: 190%;
+    margin-top: 20px;
+    color: rgb(144, 144, 144);
+}
+.about .ahref{
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    height: 90px;
+    
+}
+.ahref a{
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: 17px;
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    text-align: center;
+}
+#display {       
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+.buttons {    
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#equal {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
